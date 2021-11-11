@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Pages.MainPage">
+
+    <StackLayout>
+        <StackLayout Orientation="Horizontal">
+            <Label Text="First Name:" FontSize="Large"/>
+            <Entry Placeholder="Enter First Name" x:Name="entryFName" HorizontalOptions="FillAndExpand"/>
+        </StackLayout>
+        <StackLayout Orientation="Horizontal">
+            <Label Text="Middle Name:" FontSize="Large" />
+            <Entry Placeholder="Enter your Middle Name" x:Name="entryMName" HorizontalOptions="FillAndExpand"/>
+        </StackLayout>
+        <StackLayout Orientation="Horizontal">
+            <Label Text="Last Name:" FontSize="Large" />
+            <Entry Placeholder="Enter your Last Name" x:Name="entryLName" HorizontalOptions="FillAndExpand"/>
+        </StackLayout>
+        <StackLayout Orientation="Horizontal">
+            <Label Text="Birthday:" FontSize="Large" />
+            <Entry Placeholder="Enter your Birthday" x:Name="entryBirthday" HorizontalOptions="FillAndExpand"/>
+        </StackLayout>
+        <StackLayout Orientation="Horizontal">
+            <Label Text="Gender:" FontSize="Large" />
+            <Entry Placeholder="Enter your Gender" x:Name="entryGender" HorizontalOptions="FillAndExpand"/>
+        </StackLayout>
+        <StackLayout>
+            <Button x:Name="NextOneButton" Text="NEXT" Clicked="NextOneButton_Clicked" HorizontalOptions="Center"></Button>
+        </StackLayout>
+    </StackLayout>
+
+
+</ContentPage>

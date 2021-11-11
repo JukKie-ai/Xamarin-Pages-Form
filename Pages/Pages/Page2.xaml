@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Pages.Page2">
+    <ContentPage.Content>
+        <StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Elementary:" FontSize="Large"/>
+                <Entry Placeholder="Enter Elementary" x:Name="entryElementary" HorizontalOptions="FillAndExpand"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Year:" FontSize="Large" />
+                <Entry Placeholder="Enter Year" x:Name="entryEYear" HorizontalOptions="FillAndExpand"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Label Text="High School:" FontSize="Large" />
+                <Entry Placeholder="Enter your High School" x:Name="entryHighSchool" HorizontalOptions="FillAndExpand"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Year:" FontSize="Large" />
+                <Entry Placeholder="Enter Year" x:Name="entryHYear" HorizontalOptions="FillAndExpand"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Label Text="College:" FontSize="Large" />
+                <Entry Placeholder="Enter your College" x:Name="entryCollege" HorizontalOptions="FillAndExpand"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+                <Button x:Name="BackOneButton" Text="BACK" HorizontalOptions="Center" Clicked="BackOneButton_Clicked"></Button>
+                <Button x:Name="NextOneButton" Text="NEXT" HorizontalOptions="Center" Clicked="NextTwoButton_Clicked"></Button>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Pages.Page3">
+    
+    <ContentPage.Content>
+        <StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Skill 1:" FontSize="Large"/>
+                <Entry Placeholder="Enter Skill 1" x:Name="entrySkill1" HorizontalOptions="FillAndExpand"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Skill 2:" FontSize="Large" />
+                <Entry Placeholder="Enter Skill 2" x:Name="entrySkill2" HorizontalOptions="FillAndExpand"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Skill 3:" FontSize="Large" />
+                <Entry Placeholder="Enter Skill 3" x:Name="entrySkill3" HorizontalOptions="FillAndExpand"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Skill 4:" FontSize="Large" />
+                <Entry Placeholder="Enter Skill 4" x:Name="entrySkill4" HorizontalOptions="FillAndExpand"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Skill 5:" FontSize="Large" />
+                <Entry Placeholder="Enter Skill 5" x:Name="entrySkill5" HorizontalOptions="FillAndExpand"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+                <Button x:Name="BackOneButton" Text="BACK" HorizontalOptions="Center" Clicked="BackTwoButton_Clicked"></Button>
+                <Button x:Name="NextOneButton" Text="DONE" HorizontalOptions="Center" Clicked="NextThreeButton_Clicked"></Button>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
